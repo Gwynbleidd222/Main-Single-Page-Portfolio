@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./sass/main.css">
 </head>
 
@@ -33,11 +34,11 @@
                     </div>
 
                 </div>
-                <div class="image-portfolio"></div>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="image-portfolio"></div>
             </div>
             <img src="./images/pattern-rings.svg" class="rings">
             <img src="./images/pattern-circle.svg" class="circle">
-            <div class="home">
+            <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="home">
                 <h2 class="know-me">
                     Nice to meet you! I’m <span> Piotr Łojas</span>.
                 </h2>
@@ -54,29 +55,29 @@
         <section class="experience">
             <div class="line line-1"></div>
             <div class="skills-boxes">
-                <div class="skills skills-box-1">
+                <div data-aos="zoom-in" class="skills skills-box-1">
                     <p class="technology">HTML</p>
-                    <span class="years">2 Years Experience</span>
+                    <span class="years">3 Years Experience</span>
                 </div>
-                <div class="skills skills-box-2">
+                <div data-aos="zoom-in" class="skills skills-box-2">
                     <p class="technology">CSS</p>
-                    <span class="years">2 Years Experience</span>
+                    <span class="years">3 Years Experience</span>
                 </div>
-                <div class="skills skills-box-3">
+                <div data-aos="zoom-in" class="skills skills-box-3">
                     <p class="technology">Javascript</p>
-                    <span class="years">2 Years Experience</span>
+                    <span class="years">3 Years Experience</span>
                 </div>
-                <div class="skills skills-box-4">
+                <div data-aos="zoom-in" class="skills skills-box-4">
                     <p class="technology">Bootstrap</p>
                     <span class="years">2 Years Experience</span>
                 </div>
-                <div class="skills skills-box-5">
+                <div data-aos="zoom-in" class="skills skills-box-5">
                     <p class="technology">React</p>
-                    <span class="years">6 Months Experience</span>
+                    <span class="years">1 Year Experience</span>
                 </div>
-                <div class="skills skills-box-6">
-                    <p class="technology">Sass</p>
-                    <span class="years">2 Years Experience</span>
+                <div data-aos="zoom-in" class="skills skills-box-6">
+                    <p class="technology">Tailwind</p>
+                    <span class="years">6 Months Experience</span>
                 </div>
                 <div class="line line-2"></div>
             </div>
@@ -89,11 +90,34 @@
                 <a href="#contact" class="contact">contact me</a>
             </div>
 
-            <div class="projects-boxes">
+            <div data-aos="fade-up-right" data-aos-offset="300" class="projects-boxes">
                 <div class="projects-box">
+                    <div class="img seven">
+                        <div class="projects-view desktop">
+                            <a href="https://plan-generator-coral.vercel.app/" target="_blank"
+                                rel="noopener noreferrer">view project</a>
+                            <a href="https://github.com/Gwynbleidd222/Plan-Generator" target="_blank"
+                                rel="noopener noreferrer">view code</a>
+                        </div>
+                    </div>
+                    <div class="projects-name">
+                        <h4>plan generator</h4>
+                        <span>REACT</span>
+                        <span>TAILWIND CSS</span>
+                        <span>FIREBASE</span>
+                    </div>
+                    <div class="projects-view mobile">
+                        <a href="https://plan-generator-coral.vercel.app/" target="_blank"
+                            rel="noopener noreferrer">view project</a>
+                        <a href="https://github.com/Gwynbleidd222/Plan-Generator" target="_blank" rel="noopener noreferrer">view
+                            code</a>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up-left" data-aos-offset="300" class="projects-box">
                     <div class="img one">
                         <div class="projects-view desktop">
-                            <a href="https://www.youtube.com/watch?v=Ld6-wysLH3c" target="_blank"
+                            <a href="https://kanban-azure-gamma.vercel.app/" target="_blank"
                                 rel="noopener noreferrer">view project</a>
                             <a href="https://github.com/Gwynbleidd222/Kanban" target="_blank"
                                 rel="noopener noreferrer">view code</a>
@@ -101,18 +125,19 @@
                     </div>
                     <div class="projects-name">
                         <h4>kanban</h4>
-                        <span>SASS</span>
                         <span>REACT</span>
+                        <span>Sass(SCSS)</span>
                     </div>
                     <div class="projects-view mobile">
-                        <a href="https://www.youtube.com/watch?v=Ld6-wysLH3c" target="_blank"
+                        <a href="https://kanban-azure-gamma.vercel.app/" target="_blank"
                             rel="noopener noreferrer">view project</a>
                         <a href="https://github.com/Gwynbleidd222/Kanban" target="_blank" rel="noopener noreferrer">view
                             code</a>
                     </div>
                 </div>
+                
 
-                <div class="projects-box">
+                <div data-aos="fade-up-right" data-aos-offset="300" class="projects-box">
                     <div class="img two">
                         <div class="projects-view desktop">
                             <a href="https://luminous-sunflower-0eb71e.netlify.app/" target="_blank"
@@ -123,9 +148,8 @@
                     </div>
                     <div class="projects-name">
                         <h4>space tourism website</h4>
-                        <span>HTML</span>
-                        <span>SASS</span>
                         <span>REACT</span>
+                        <span>Sass(SCSS)</span>
 
                     </div>
                     <div class="projects-view mobile">
@@ -135,29 +159,29 @@
                             rel="noopener noreferrer">view code</a>
                     </div>
                 </div>
-                <div class="projects-box">
+                <div data-aos="fade-up-left" data-aos-offset="300" class="projects-box">
                     <div class="img three">
                         <div class="projects-view desktop">
-                            <a href="https://gwynbleidd222.github.io/single-page-developer/" target="_blank"
+                            <a href="https://gwynbleidd222.github.io/Marker-pre-launch-page/" target="_blank"
                                 rel="noopener noreferrer">view project</a>
-                            <a href="https://github.com/Gwynbleidd222/single-page-developer" target="_blank"
+                            <a href="https://github.com/Gwynbleidd222/Marker-pre-launch-page" target="_blank"
                                 rel="noopener noreferrer">view code</a>
                         </div>
                     </div>
                     <div class="projects-name">
-                        <h4>single page developer</h4>
+                        <h4>Marker Pre Launch Landing Page</h4>
                         <span>HTML</span>
-                        <span>SASS</span>
+                        <span>Sass(SCSS)</span>
                         <span>JS</span>
                     </div>
                     <div class="projects-view mobile">
-                        <a href="https://gwynbleidd222.github.io/single-page-developer/" target="_blank"
+                        <a href="https://gwynbleidd222.github.io/Marker-pre-launch-page/" target="_blank"
                             rel="noopener noreferrer">view project</a>
-                        <a href="https://github.com/Gwynbleidd222/single-page-developer" target="_blank"
+                        <a href="https://github.com/Gwynbleidd222/Marker-pre-launch-page" target="_blank"
                             rel="noopener noreferrer">view code</a>
                     </div>
                 </div>
-                <div class="projects-box">
+                <div data-aos="fade-up-right" data-aos-offset="300" class="projects-box">
                     <div class="img four">
                         <div class="projects-view desktop">
                             <a href="https://gwynbleidd222.github.io/piotr-lojas-v1/" target="_blank"
@@ -179,25 +203,30 @@
                             rel="noopener noreferrer">view code</a>
                     </div>
                 </div>
-                <div class="projects-box">
+                <div data-aos="fade-up-left" data-aos-offset="300" class="projects-box">
                     <div class="img five">
                         <div class="projects-view desktop">
                             <a href="https://piotrlojas.com.pl/" target="_blank" rel="noopener noreferrer">view
                                 project</a>
+                            <a href="https://github.com/Gwynbleidd222/piotr-lojas-v1" target="_blank" rel="noopener noreferrer">view
+                                code</a>
 
                         </div>
                     </div>
                     <div class="projects-name">
                         <h4>second website</h4>
                         <span>HTML</span>
-                        <span>SCSS</span>
+                        <span>Sass(SCSS)</span>
                         <span>GULP</span>
+                        <span>PHP</span>
                     </div>
                     <div class="projects-view mobile">
                         <a href="https://piotrlojas.com.pl/" target="_blank" rel="noopener noreferrer">view project</a>
+                        <a href="https://github.com/Gwynbleidd222/piotr-lojas-v1" target="_blank" rel="noopener noreferrer">view
+                                code</a>
                     </div>
                 </div>
-                <div class="projects-box">
+                <!-- <div class="projects-box">
                     <div class="img six">
                         <div class="projects-view desktop">
                             <a href="https://www.youtube.com/watch?v=XMT7-D56neA" target="_blank"
@@ -217,7 +246,9 @@
                         <a href="https://github.com/Gwynbleidd222/Exercise-Generator-Alpha-Version-" target="_blank"
                             rel="noopener noreferrer">view code</a>
                     </div>
-                </div>
+                </div> -->
+
+                
             </div>
         </section>
 
@@ -274,6 +305,10 @@
         </footer>
 
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./main.js"></script>
 </body>
 
