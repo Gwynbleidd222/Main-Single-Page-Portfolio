@@ -52,7 +52,7 @@ body {
   padding: 1.5rem;
 }
 .header-section .header-box .image-portfolio {
-  background: url("../images/image-profile-mobile.jpg");
+  background: url("../images/_DSC2736.JPG");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -329,6 +329,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -416,7 +417,7 @@ body {
     z-index: 110;
   }
   .header-section .header-box .image-portfolio {
-    background: url("../images/image-profile-tablet.jpg");
+    background: url("../images/_DSC2736.JPG");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
