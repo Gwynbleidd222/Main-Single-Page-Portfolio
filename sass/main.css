@@ -52,7 +52,7 @@ body {
   padding: 1.5rem;
 }
 .header-section .header-box .image-portfolio {
-  background: url("../images/_DSC2736.JPG");
+  background: url("../images/photo-mobile.jpg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -417,7 +417,7 @@ body {
     z-index: 110;
   }
   .header-section .header-box .image-portfolio {
-    background: url("../images/_DSC2736.JPG");
+    background: url("../images/photo-mobile.jpg");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
