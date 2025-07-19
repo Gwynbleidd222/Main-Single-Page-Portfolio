@@ -41,8 +41,8 @@ Users should be  able to:
 
 ## Author
 
-- Website - [Add your name here](https://github.com/Gwynbleidd222/Main-Single-Page-Portfolio)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Gwynbleidd222)
+- Website - [https://github.com/Gwynbleidd222/Main-Single-Page-Portfolio]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Gwynbleidd222]
 
 
 
