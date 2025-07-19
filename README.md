@@ -24,8 +24,8 @@ Users should be  able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Gwynbleidd222/Main-Single-Page-Portfolio)
-- Live Site URL: [Add live site URL here](https://gwynbleidd222.github.io/Main-Single-Page-Portfolio/)
+- Solution URL: [https://github.com/Gwynbleidd222/Main-Single-Page-Portfolio]
+- Live Site URL: [https://gwynbleidd222.github.io/Main-Single-Page-Portfolio/]
 
 ## My process
 
